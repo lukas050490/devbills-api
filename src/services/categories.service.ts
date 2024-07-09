@@ -18,7 +18,7 @@ export class CategoriesService {
     const category = new Category({
       title,
       color,
-    });
+   });
 
     const createdCategory = await this.categoriesRepository.create(category);
     return createdCategory;
