@@ -5,7 +5,7 @@ import { createTransactionDTO, GetDashboardDTO, GetFinancialEvolutionDTO, IndexT
 import { Transaction } from "../entities/transactions.entity";
 import { AppError } from "../errors/app.error";
 import { Balance } from "../entities/balance.entity";
-import { Expense } from "../entities/expense.entity";
+import {Expense} from "../entities/expense.entity";
 
 export class TransactionsService {
     constructor(
